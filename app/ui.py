@@ -8,7 +8,7 @@ EXCEL_PATH = Path("outputs/spreadsheets/patient_data.xlsx")
 
 
 # Root folder where images are stored (adjust if needed)
-IMAGES_ROOT = Path(r"data/processed")
+IMAGES_ROOT = Path("data/processed")
 
 @st.cache_data
 def load_data():
@@ -77,4 +77,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
