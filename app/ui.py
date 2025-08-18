@@ -4,7 +4,8 @@ from pathlib import Path
 import datetime as dt
 
 # Path to the processed Excel file
-EXCEL_PATH = Path(r"outputs\spreadsheets\patient_data.xlsx")
+EXCEL_PATH = Path("outputs/spreadsheets/patient_data.xlsx")
+
 
 # Root folder where images are stored (adjust if needed)
 IMAGES_ROOT = Path(r"data/processed")
@@ -76,3 +77,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
