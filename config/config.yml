@@ -1,0 +1,8 @@
+usbCopyConfiguration:
+  sourceMountBase: "data/raw"
+  destinationMasterFolder: "data/raw"
+  processFolder: "data/processed"
+  excelOutput: "outputs/spreadsheets/patient_data.xlsx"
+  emptyNpy: "data/empty.npy"
+  includeHiddenFiles: false
+  logCopy: true
