@@ -1,4 +1,8 @@
+pyyaml
+numpy
 pandas
 openpyxl
-streamlit
 matplotlib
+streamlit
+Pillow
+opencv-python
