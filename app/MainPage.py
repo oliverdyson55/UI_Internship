@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 
 
 # Path to the relevant processed Excel file
-EXCEL_PATH = Path(r"outputs\spreadsheets\patient_data.xlsx")
-MACRO_PATH = Path(r"outputs\spreadsheets\example_nutrient_data.xlsx")
+EXCEL_PATH = Path(r"outputs/spreadsheets/patient_data.xlsx")
+MACRO_PATH = Path(r"outputs/spreadsheets/example_nutrient_data.xlsx")
 
 # Root folder where images are stored - CHANGE TO MATCH YOURS
 IMAGES_ROOT = Path(r"data/processed")
@@ -211,6 +211,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
