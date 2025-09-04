@@ -4,6 +4,10 @@ from pathlib import Path
 import datetime as dt
 import matplotlib.pyplot as plt
 
+
+st.set_option("server.fileWatcherType", "none")
+
+
 # Path to the relevant processed Excel file
 EXCEL_PATH = Path(r"outputs\spreadsheets\patient_data.xlsx")
 MACRO_PATH = Path(r"outputs\spreadsheets\example_nutrient_data.xlsx")
@@ -210,4 +214,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
